@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/*zona*/
+body{
+	margin:0px;
+}
+
+main{
+	background-color: lightgoldenrodyellow;
+	padding-top:15px;
+	padding-bottom: 15px;
+}
+
+header{
+	background-color: lightcoral;
+	padding-bottom: 4px;
+}
+
+nav{
+	display: flex;
+	border: dashed 2px rgb(255, 0, 0);
+	padding-bottom: 12px;
+	background-color: lightsalmon;
+}
+.fila{
+	margin-left: 40%;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	width:80%;
+}
+
+table{
+	border-collapse: collapse;
+	border: solid lightblue;
+	margin-top:60px;
+	clear:both;
+}
+footer{
+	display: flex;
+	background-image: url(multimedia/nav.png);
+	height: 6rem;
+}
+/*texto*/
+
+.N1{
+	color:white;
+	text-decoration: none;
+	display: block;
+	width:28%;
+	height: 1.5rem;
+	border:dashed red;
+	box-sizing: border-box;
+	margin-left:12%;
+	margin-right:20% ;
+	text-align: center;
+}
+.N2{
+	color:white;
+	text-decoration: none;
+	display: block;
+	box-sizing: border-box;
+	width:28%;
+	height: 1.5rem;
+	border:dashed red;
+	text-align: center;
+}
+
+h1{
+	color: skyblue;
+	text-align: center;
+	font-size: 2rem;
+	text-decoration: underline rgb(255, 128, 0);	
+} 
+
+h2{
+	font-size: 3rem;
+	letter-spacing: 4px;
+	color:black;
+	margin-top: -6px;
+}
+
+
+h3{
+	font-size: 2.2rem;
+	color: royalblue;
+	font-variant:small-caps ;
+	margin-top:-2px;
+	margin-bottom: 10px;
+}
+
+td,th{
+	font-size: 32px;
+	width:20vw;
+	border-top:solid lightblue;
+	border-bottom: solid lightblue;
+}
+
+td[colspan]{
+	text-align: center;
+}
+
+th+td{
+	border-right: solid lightblue;
+}
+
+button{
+	background: none;
+	color:brown;
+	
+}
+
+
+/*imagen*/
+.people{
+	width: 10%;
+	margin-left: 2%;
+}
+
+.pos:hover{
+	transform: scale(2);
+	border-radius: 0%;
+	border: solid red 0.5px;
+	transition-property: transform, border-radius, border;
+	transition-duration: 3s, 2s,1s;
+	transition-delay: 0s,0s,2s;
+	
+}
+.pos{
+	float: left;
+	margin-left: 25%;
+	margin-right: 16px;
+	border-radius: 50%;
+}
+
+progress{
+	color:red;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	display: block;
+	width: 20%;
+	border: solid rgb(255, 255, 255);
+	margin-right: 20%;
+	margin-left: 10%;
+}
+
+a.menu{
+	text-decoration: none;
+	text-align: left;
+	color: black;
+	margin-left: 0%;
+	border: none;
+}
+
+.fin{
+	background: salmon;
+	text-align: center;
+	height: 2rem;
+}
